@@ -1,0 +1,80 @@
+.header {
+    font-size: 30pt;
+    font-weight: bolder;
+}
+ul{
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    width: 98%;
+}
+li {
+    float:right;
+    padding: 50px;
+    padding-bottom: 19px;
+    padding-top: 25px;
+    color: aliceblue;
+    background-color: black;
+    list-style-type: none;
+    border: solid white;
+    border-width: 0 1px;
+}
+table{
+    width: 100%;
+    color: rgb(228, 226, 226);
+    border-collapse: collapse;
+}
+.tabulu{
+    margin-top:10%;
+    background-color: black;
+}
+td,th{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+th{
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+tr:nth-child(even) {
+    background-color: #4a29c4;
+  }
+  .sbar{
+      border: 1px solid #ccc;
+      margin-top: 20px;
+      margin-left: 30%;
+      width: fit-content;
+  }
+.bodi{
+    background-image: url(pinbat2.jpg);
+    color: #ccc;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: black;
+}
+pre{
+    padding: 18px;
+}
+.end{
+    background-color: #4a29c4;
+    color: #ccc;
+}
+li a:hover{
+    background-color: #4a29c4;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+a:visited{
+    color: blue;
+}
+.mgend{
+    background-image: url(batman.jpg);
+    height: 700px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
